@@ -1,0 +1,54 @@
+# ============ Excel/VBA Project .gitignore ============
+
+# Ignore Excel temp and backup files
+~$*
+*.bak
+
+# Ignore Excel autosave and cache files
+*.xlk
+*.tmp
+*.lock
+
+# Ignore compiled VBA project files (if any)
+*.exd
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+
+# Ignore hidden system files
+._*
+.Spotlight-V100
+.Trashes
+
+# Logs and crash reports
+*.log
+
+# VS Code/Editor folders
+.vscode/
+.idea/
+
+# Ignore personal notes or secrets
+*.swn
+*.swo
+*.swp
+*.user
+notes.txt
+
+# Ignore zip/archives not meant for source
+*.zip
+*.rar
+
+# Node/Package manager (if used for documentation or tooling)
+node_modules/
+
+# Python (if using scripts for build/documentation)
+__pycache__/
+*.pyc
+
+# Ignore output folders
+dist/
+build/
+out/
